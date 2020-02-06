@@ -1,0 +1,4388 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 98,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adMobAppId": "",
+    "folderProject": false,
+    "linuxExecutableFilename": "",
+    "macExecutableFilename": "",
+    "orientation": "landscape",
+    "packageName": "com.joshuaclevin.mermaidsymphony",
+    "projectFile": "/Users/joshualevin/Documents/GDevelop Projects/mermaid_symphony/game.json",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "winExecutableFilename": "",
+    "winExecutableIconFile": "",
+    "name": "Project",
+    "author": "Joshua Levin",
+    "windowWidth": 1920,
+    "windowHeight": 1080,
+    "latestCompilationDirectory": "/Users/joshualevin/Documents/GDevelop Projects/mermaid_symphony/web_builds",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "showGDevelopSplash": true
+    },
+    "extensions": [
+      {
+        "name": "BuiltinObject"
+      },
+      {
+        "name": "BuiltinAudio"
+      },
+      {
+        "name": "BuiltinVariables"
+      },
+      {
+        "name": "BuiltinTime"
+      },
+      {
+        "name": "BuiltinMouse"
+      },
+      {
+        "name": "BuiltinKeyboard"
+      },
+      {
+        "name": "BuiltinJoystick"
+      },
+      {
+        "name": "BuiltinCamera"
+      },
+      {
+        "name": "BuiltinWindow"
+      },
+      {
+        "name": "BuiltinFile"
+      },
+      {
+        "name": "BuiltinNetwork"
+      },
+      {
+        "name": "BuiltinScene"
+      },
+      {
+        "name": "BuiltinAdvanced"
+      },
+      {
+        "name": "Sprite"
+      },
+      {
+        "name": "BuiltinCommonInstructions"
+      },
+      {
+        "name": "BuiltinCommonConversions"
+      },
+      {
+        "name": "BuiltinStringInstructions"
+      },
+      {
+        "name": "BuiltinMathematicalTools"
+      },
+      {
+        "name": "BuiltinExternalLayouts"
+      }
+    ],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "Game Backgrounds/Backgrounds_1/PNG/4_game_background/4_game_background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Game Backgrounds/Backgrounds_1/PNG/4_game_background/4_game_background.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Mermaid/PNG/Mermaid_1/Idle_000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mermaid/PNG/Mermaid_1/Idle_000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Mermaid/PNG/Mermaid_1/Idle_001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mermaid/PNG/Mermaid_1/Idle_001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Mermaid/PNG/Mermaid_1/Idle_002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mermaid/PNG/Mermaid_1/Idle_002.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Mermaid/PNG/Mermaid_1/Idle_003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mermaid/PNG/Mermaid_1/Idle_003.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Mermaid/PNG/Mermaid_1/Idle_004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mermaid/PNG/Mermaid_1/Idle_004.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Mermaid/PNG/Mermaid_1/Idle_005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mermaid/PNG/Mermaid_1/Idle_005.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Mermaid/PNG/Mermaid_1/Idle_006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mermaid/PNG/Mermaid_1/Idle_006.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Mermaid/PNG/Mermaid_1/Idle_007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mermaid/PNG/Mermaid_1/Idle_007.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Mermaid/PNG/Mermaid_1/Idle_008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mermaid/PNG/Mermaid_1/Idle_008.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Mermaid/PNG/Mermaid_1/Idle_009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mermaid/PNG/Mermaid_1/Idle_009.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Mermaid/PNG/Mermaid_2/Idle_000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mermaid/PNG/Mermaid_2/Idle_000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Mermaid/PNG/Mermaid_2/Idle_001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mermaid/PNG/Mermaid_2/Idle_001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Mermaid/PNG/Mermaid_2/Idle_002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mermaid/PNG/Mermaid_2/Idle_002.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Mermaid/PNG/Mermaid_2/Idle_003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mermaid/PNG/Mermaid_2/Idle_003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Mermaid/PNG/Mermaid_2/Idle_004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mermaid/PNG/Mermaid_2/Idle_004.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Mermaid/PNG/Mermaid_2/Idle_005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mermaid/PNG/Mermaid_2/Idle_005.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Mermaid/PNG/Mermaid_2/Idle_006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mermaid/PNG/Mermaid_2/Idle_006.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Mermaid/PNG/Mermaid_2/Idle_007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mermaid/PNG/Mermaid_2/Idle_007.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Mermaid/PNG/Mermaid_2/Idle_008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mermaid/PNG/Mermaid_2/Idle_008.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Mermaid/PNG/Mermaid_2/Idle_009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mermaid/PNG/Mermaid_2/Idle_009.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Mermaid/PNG/Mermaid_2/Move_000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mermaid/PNG/Mermaid_2/Move_000.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Mermaid/PNG/Mermaid_2/Move_001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mermaid/PNG/Mermaid_2/Move_001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Mermaid/PNG/Mermaid_2/Move_002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mermaid/PNG/Mermaid_2/Move_002.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Mermaid/PNG/Mermaid_2/Move_003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mermaid/PNG/Mermaid_2/Move_003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Mermaid/PNG/Mermaid_2/Move_004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mermaid/PNG/Mermaid_2/Move_004.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Mermaid/PNG/Mermaid_2/Move_005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mermaid/PNG/Mermaid_2/Move_005.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Mermaid/PNG/Mermaid_2/Move_006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mermaid/PNG/Mermaid_2/Move_006.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Mermaid/PNG/Mermaid_2/Move_007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mermaid/PNG/Mermaid_2/Move_007.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Mermaid/PNG/Mermaid_2/Move_008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mermaid/PNG/Mermaid_2/Move_008.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Mermaid/PNG/Mermaid_2/Move_009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mermaid/PNG/Mermaid_2/Move_009.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Game items/PNG/Bonus/Crown.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Game items/PNG/Bonus/Crown.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Game items/PNG/Bonus/Acceleration.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Game items/PNG/Bonus/Acceleration.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Game items/PNG/Bonus/Coin.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Game items/PNG/Bonus/Coin.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Game items/PNG/Bonus/Pearl.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Game items/PNG/Bonus/Pearl.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "orange-juice/orange juice 2.0.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "orange-juice/orange juice 2.0.ttf",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Game items/PNG/Bonus/Acceleration-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Game items/PNG/Bonus/Acceleration-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Game items/PNG/Bonus/Acceleration-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Game items/PNG/Bonus/Acceleration-2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Game items/PNG/Bonus/Acceleration-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Game items/PNG/Bonus/Acceleration-3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Game items/PNG/Bonus/Acceleration-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Game items/PNG/Bonus/Acceleration-4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-1-0.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Game items/PNG/Bonus/Small-bomb.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Game items/PNG/Bonus/Small-bomb.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Game items/PNG/Let/Barrel_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Game items/PNG/Let/Barrel_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Game items/PNG/Let/Bomb.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Game items/PNG/Let/Bomb.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Game items/PNG/Let/Anchor.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Game items/PNG/Let/Anchor.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Mermaid/PNG/Mermaid_2/Hurt_000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mermaid/PNG/Mermaid_2/Hurt_000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Mermaid/PNG/Mermaid_2/Hurt_001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mermaid/PNG/Mermaid_2/Hurt_001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Mermaid/PNG/Mermaid_2/Hurt_002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mermaid/PNG/Mermaid_2/Hurt_002.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Mermaid/PNG/Mermaid_2/Hurt_003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mermaid/PNG/Mermaid_2/Hurt_003.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Mermaid/PNG/Mermaid_2/Hurt_004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mermaid/PNG/Mermaid_2/Hurt_004.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Mermaid/PNG/Mermaid_2/Hurt_005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mermaid/PNG/Mermaid_2/Hurt_005.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Mermaid/PNG/Mermaid_2/Hurt_006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mermaid/PNG/Mermaid_2/Hurt_006.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Mermaid/PNG/Mermaid_2/Hurt_007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mermaid/PNG/Mermaid_2/Hurt_007.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Mermaid/PNG/Mermaid_2/Hurt_008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mermaid/PNG/Mermaid_2/Hurt_008.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Mermaid/PNG/Mermaid_2/Hurt_009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mermaid/PNG/Mermaid_2/Hurt_009.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Mermaid/PNG/Mermaid_2/Acceleration_000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mermaid/PNG/Mermaid_2/Acceleration_000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Mermaid/PNG/Mermaid_2/Acceleration_001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mermaid/PNG/Mermaid_2/Acceleration_001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Mermaid/PNG/Mermaid_2/Acceleration_002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mermaid/PNG/Mermaid_2/Acceleration_002.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Mermaid/PNG/Mermaid_2/Acceleration_003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mermaid/PNG/Mermaid_2/Acceleration_003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Mermaid/PNG/Mermaid_2/Acceleration_004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mermaid/PNG/Mermaid_2/Acceleration_004.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Mermaid/PNG/Mermaid_2/Acceleration_005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mermaid/PNG/Mermaid_2/Acceleration_005.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Mermaid/PNG/Mermaid_2/Acceleration_006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mermaid/PNG/Mermaid_2/Acceleration_006.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Mermaid/PNG/Mermaid_2/Acceleration_007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mermaid/PNG/Mermaid_2/Acceleration_007.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Mermaid/PNG/Mermaid_2/Acceleration_008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mermaid/PNG/Mermaid_2/Acceleration_008.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Mermaid/PNG/Mermaid_2/Acceleration_009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mermaid/PNG/Mermaid_2/Acceleration_009.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Underwater world Game UI/PNG/you lose/window.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Underwater world Game UI/PNG/you lose/window.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Underwater world Game UI/PNG/you lose/chain.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Underwater world Game UI/PNG/you lose/chain.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "snacker-comic/SnackerComic_PerosnalUseOnly.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "snacker-comic/SnackerComic_PerosnalUseOnly.ttf",
+        "userAdded": true
+      },
+      {
+        "file": "national-cartoon/National Cartoon.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "national-cartoon/National Cartoon.ttf",
+        "userAdded": true
+      },
+      {
+        "file": "Drift___ 2.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Drift___ 2.ttf",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Underwater world Game UI/PNG/basic window/dec_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Underwater world Game UI/PNG/basic window/dec_5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Underwater world Game UI/PNG/you lose/restart.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Underwater world Game UI/PNG/you lose/restart.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Mermaid/PNG/Mermaid_2/Die_000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mermaid/PNG/Mermaid_2/Die_000.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Mermaid/PNG/Mermaid_2/Die_001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mermaid/PNG/Mermaid_2/Die_001.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Mermaid/PNG/Mermaid_2/Die_002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mermaid/PNG/Mermaid_2/Die_002.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Mermaid/PNG/Mermaid_2/Die_003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mermaid/PNG/Mermaid_2/Die_003.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Mermaid/PNG/Mermaid_2/Die_004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mermaid/PNG/Mermaid_2/Die_004.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Mermaid/PNG/Mermaid_2/Die_005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mermaid/PNG/Mermaid_2/Die_005.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Mermaid/PNG/Mermaid_2/Die_006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mermaid/PNG/Mermaid_2/Die_006.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Mermaid/PNG/Mermaid_2/Die_007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mermaid/PNG/Mermaid_2/Die_007.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Mermaid/PNG/Mermaid_2/Die_008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mermaid/PNG/Mermaid_2/Die_008.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Mermaid/PNG/Mermaid_2/Die_009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mermaid/PNG/Mermaid_2/Die_009.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "Glitter Blast.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Glitter Blast.mp3",
+        "userAdded": false
+      },
+      {
+        "file": "456965__funwithsound__short-success-sound-glockenspiel-treasure-video-game.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "456965__funwithsound__short-success-sound-glockenspiel-treasure-video-game.mp3",
+        "userAdded": true
+      },
+      {
+        "file": "211634__qubodup__damage.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "211634__qubodup__damage.ogg",
+        "userAdded": true
+      },
+      {
+        "file": "456965__funwithsound__short-success-sound-glockenspiel-treasure-video-game.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "456965__funwithsound__short-success-sound-glockenspiel-treasure-video-game.ogg",
+        "userAdded": false
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsGroups": [],
+  "variables": [],
+  "layouts": [
+    {
+      "b": 255,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "game",
+      "name": "game",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 148,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 255,
+      "uiSettings": {
+        "grid": false,
+        "gridB": 255,
+        "gridG": 180,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridR": 158,
+        "gridWidth": 32,
+        "snap": true,
+        "windowMask": false,
+        "zoomFactor": 0.35
+      },
+      "objectsGroups": [],
+      "variables": [
+        {
+          "name": "score",
+          "value": "0"
+        },
+        {
+          "name": "health",
+          "value": "10"
+        }
+      ],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 1080,
+          "layer": "",
+          "locked": false,
+          "name": "background",
+          "width": 1920,
+          "x": 0,
+          "y": 0,
+          "zOrder": -10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 327,
+          "layer": "",
+          "locked": false,
+          "name": "player",
+          "width": 199,
+          "x": 1046,
+          "y": 477,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "ui",
+          "locked": false,
+          "name": "score",
+          "width": 0,
+          "x": 21,
+          "y": 40,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "ui",
+          "locked": false,
+          "name": "health",
+          "width": 0,
+          "x": 1491,
+          "y": 71,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "game over",
+          "locked": false,
+          "name": "game_over_sign",
+          "width": 0,
+          "x": 672,
+          "y": -649,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "game over",
+          "locked": false,
+          "name": "game_over_chain",
+          "width": 0,
+          "x": 731,
+          "y": -965,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 130,
+          "layer": "game over",
+          "locked": false,
+          "name": "game_over_banner",
+          "width": 597,
+          "x": 695,
+          "y": -629,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "game over",
+          "locked": false,
+          "name": "game_over_text",
+          "width": 0,
+          "x": 778,
+          "y": -634,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 327,
+          "layer": "game over",
+          "locked": false,
+          "name": "game_over_score",
+          "width": 474,
+          "x": 849,
+          "y": -544,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "game over",
+          "locked": false,
+          "name": "game_over_restart",
+          "width": 0,
+          "x": 913,
+          "y": -188,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "name": "background",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Game Backgrounds/Backgrounds_1/PNG/4_game_background/4_game_background.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "player",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "bottomEdgeAnchor": 0,
+              "leftEdgeAnchor": 0,
+              "name": "Anchor",
+              "relativeToOriginalWindowSize": true,
+              "rightEdgeAnchor": 0,
+              "topEdgeAnchor": 0,
+              "type": "AnchorBehavior::AnchorBehavior"
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            },
+            {
+              "name": "swimmer",
+              "type": "player::swimmer",
+              "is_swimming": false
+            }
+          ],
+          "animations": [
+            {
+              "name": "idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Mermaid/PNG/Mermaid_2/Idle_000.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 381.738,
+                        "y": 334.355
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 207.32,
+                            "y": 1.98438
+                          },
+                          {
+                            "x": 563.34,
+                            "y": 4.45312
+                          },
+                          {
+                            "x": 590.288,
+                            "y": 708.584
+                          },
+                          {
+                            "x": 85.1465,
+                            "y": 850.884
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Mermaid/PNG/Mermaid_2/Idle_001.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 381.738,
+                        "y": 334.355
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 207.32,
+                            "y": 1.98438
+                          },
+                          {
+                            "x": 563.34,
+                            "y": 4.45312
+                          },
+                          {
+                            "x": 590.288,
+                            "y": 708.584
+                          },
+                          {
+                            "x": 85.1465,
+                            "y": 850.884
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Mermaid/PNG/Mermaid_2/Idle_002.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 381.738,
+                        "y": 334.355
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 207.32,
+                            "y": 1.98438
+                          },
+                          {
+                            "x": 563.34,
+                            "y": 4.45312
+                          },
+                          {
+                            "x": 590.288,
+                            "y": 708.584
+                          },
+                          {
+                            "x": 85.1465,
+                            "y": 850.884
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Mermaid/PNG/Mermaid_2/Idle_003.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 381.738,
+                        "y": 334.355
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 207.32,
+                            "y": 1.98438
+                          },
+                          {
+                            "x": 563.34,
+                            "y": 4.45312
+                          },
+                          {
+                            "x": 590.288,
+                            "y": 708.584
+                          },
+                          {
+                            "x": 85.1465,
+                            "y": 850.884
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Mermaid/PNG/Mermaid_2/Idle_004.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 381.738,
+                        "y": 334.355
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 207.32,
+                            "y": 1.98438
+                          },
+                          {
+                            "x": 563.34,
+                            "y": 4.45312
+                          },
+                          {
+                            "x": 590.288,
+                            "y": 708.584
+                          },
+                          {
+                            "x": 85.1465,
+                            "y": 850.884
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Mermaid/PNG/Mermaid_2/Idle_005.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 381.738,
+                        "y": 334.355
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 207.32,
+                            "y": 1.98438
+                          },
+                          {
+                            "x": 563.34,
+                            "y": 4.45312
+                          },
+                          {
+                            "x": 590.288,
+                            "y": 708.584
+                          },
+                          {
+                            "x": 85.1465,
+                            "y": 850.884
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Mermaid/PNG/Mermaid_2/Idle_006.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 381.738,
+                        "y": 334.355
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 207.32,
+                            "y": 1.98438
+                          },
+                          {
+                            "x": 563.34,
+                            "y": 4.45312
+                          },
+                          {
+                            "x": 590.288,
+                            "y": 708.584
+                          },
+                          {
+                            "x": 85.1465,
+                            "y": 850.884
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Mermaid/PNG/Mermaid_2/Idle_007.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 381.738,
+                        "y": 334.355
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 207.32,
+                            "y": 1.98438
+                          },
+                          {
+                            "x": 563.34,
+                            "y": 4.45312
+                          },
+                          {
+                            "x": 590.288,
+                            "y": 708.584
+                          },
+                          {
+                            "x": 85.1465,
+                            "y": 850.884
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Mermaid/PNG/Mermaid_2/Idle_008.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 381.738,
+                        "y": 334.355
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 207.32,
+                            "y": 1.98438
+                          },
+                          {
+                            "x": 563.34,
+                            "y": 4.45312
+                          },
+                          {
+                            "x": 590.288,
+                            "y": 708.584
+                          },
+                          {
+                            "x": 85.1465,
+                            "y": 850.884
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Mermaid/PNG/Mermaid_2/Idle_009.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 381.738,
+                        "y": 334.355
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 207.32,
+                            "y": 1.98438
+                          },
+                          {
+                            "x": 563.34,
+                            "y": 4.45312
+                          },
+                          {
+                            "x": 590.288,
+                            "y": 708.584
+                          },
+                          {
+                            "x": 85.1465,
+                            "y": 850.884
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "swim",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Mermaid/PNG/Mermaid_2/Move_000.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 966.328,
+                        "y": 477.715
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 963.926,
+                        "y": 478.506
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 59.082,
+                            "y": 263.516
+                          },
+                          {
+                            "x": 1101.66,
+                            "y": 242.031
+                          },
+                          {
+                            "x": 1077.01,
+                            "y": 646.758
+                          },
+                          {
+                            "x": 49.9414,
+                            "y": 665.078
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Mermaid/PNG/Mermaid_2/Move_001.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 966.328,
+                        "y": 477.715
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 963.926,
+                        "y": 478.506
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 59.082,
+                            "y": 263.516
+                          },
+                          {
+                            "x": 1101.66,
+                            "y": 242.031
+                          },
+                          {
+                            "x": 1077.01,
+                            "y": 646.758
+                          },
+                          {
+                            "x": 49.9414,
+                            "y": 665.078
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Mermaid/PNG/Mermaid_2/Move_002.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 966.328,
+                        "y": 477.715
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 963.926,
+                        "y": 478.506
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 59.082,
+                            "y": 263.516
+                          },
+                          {
+                            "x": 1101.66,
+                            "y": 242.031
+                          },
+                          {
+                            "x": 1077.01,
+                            "y": 646.758
+                          },
+                          {
+                            "x": 49.9414,
+                            "y": 665.078
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Mermaid/PNG/Mermaid_2/Move_003.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 966.328,
+                        "y": 477.715
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 963.926,
+                        "y": 478.506
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 59.082,
+                            "y": 263.516
+                          },
+                          {
+                            "x": 1101.66,
+                            "y": 242.031
+                          },
+                          {
+                            "x": 1077.01,
+                            "y": 646.758
+                          },
+                          {
+                            "x": 49.9414,
+                            "y": 665.078
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Mermaid/PNG/Mermaid_2/Move_004.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 966.328,
+                        "y": 477.715
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 963.926,
+                        "y": 478.506
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 59.082,
+                            "y": 263.516
+                          },
+                          {
+                            "x": 1101.66,
+                            "y": 242.031
+                          },
+                          {
+                            "x": 1077.01,
+                            "y": 646.758
+                          },
+                          {
+                            "x": 49.9414,
+                            "y": 665.078
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Mermaid/PNG/Mermaid_2/Move_005.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 966.328,
+                        "y": 477.715
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 963.926,
+                        "y": 478.506
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 59.082,
+                            "y": 263.516
+                          },
+                          {
+                            "x": 1101.66,
+                            "y": 242.031
+                          },
+                          {
+                            "x": 1077.01,
+                            "y": 646.758
+                          },
+                          {
+                            "x": 49.9414,
+                            "y": 665.078
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Mermaid/PNG/Mermaid_2/Move_006.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 966.328,
+                        "y": 477.715
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 963.926,
+                        "y": 478.506
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 59.082,
+                            "y": 263.516
+                          },
+                          {
+                            "x": 1101.66,
+                            "y": 242.031
+                          },
+                          {
+                            "x": 1077.01,
+                            "y": 646.758
+                          },
+                          {
+                            "x": 49.9414,
+                            "y": 665.078
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Mermaid/PNG/Mermaid_2/Move_007.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 966.328,
+                        "y": 477.715
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 963.926,
+                        "y": 478.506
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 59.082,
+                            "y": 263.516
+                          },
+                          {
+                            "x": 1101.66,
+                            "y": 242.031
+                          },
+                          {
+                            "x": 1077.01,
+                            "y": 646.758
+                          },
+                          {
+                            "x": 49.9414,
+                            "y": 665.078
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Mermaid/PNG/Mermaid_2/Move_008.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 966.328,
+                        "y": 477.715
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 963.926,
+                        "y": 478.506
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 59.082,
+                            "y": 263.516
+                          },
+                          {
+                            "x": 1101.66,
+                            "y": 242.031
+                          },
+                          {
+                            "x": 1077.01,
+                            "y": 646.758
+                          },
+                          {
+                            "x": 49.9414,
+                            "y": 665.078
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Mermaid/PNG/Mermaid_2/Move_009.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 966.328,
+                        "y": 477.715
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 963.926,
+                        "y": 478.506
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 59.082,
+                            "y": 263.516
+                          },
+                          {
+                            "x": 1101.66,
+                            "y": 242.031
+                          },
+                          {
+                            "x": 1077.01,
+                            "y": 646.758
+                          },
+                          {
+                            "x": 49.9414,
+                            "y": 665.078
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "hurt",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.04,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Mermaid/PNG/Mermaid_2/Hurt_000.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 963.496,
+                        "y": 311.338
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 961.312,
+                        "y": 312.023
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Mermaid/PNG/Mermaid_2/Hurt_001.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 963.496,
+                        "y": 311.338
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 961.312,
+                        "y": 312.023
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Mermaid/PNG/Mermaid_2/Hurt_002.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 963.496,
+                        "y": 311.338
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 961.312,
+                        "y": 312.023
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Mermaid/PNG/Mermaid_2/Hurt_003.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 963.496,
+                        "y": 311.338
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 961.312,
+                        "y": 312.023
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Mermaid/PNG/Mermaid_2/Hurt_004.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 963.496,
+                        "y": 311.338
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 961.312,
+                        "y": 312.023
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Mermaid/PNG/Mermaid_2/Hurt_005.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 963.496,
+                        "y": 311.338
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 961.312,
+                        "y": 312.023
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Mermaid/PNG/Mermaid_2/Hurt_006.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 963.496,
+                        "y": 311.338
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 961.312,
+                        "y": 312.023
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Mermaid/PNG/Mermaid_2/Hurt_007.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 963.496,
+                        "y": 311.338
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 961.312,
+                        "y": 312.023
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Mermaid/PNG/Mermaid_2/Hurt_008.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 963.496,
+                        "y": 311.338
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 961.312,
+                        "y": 312.023
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Mermaid/PNG/Mermaid_2/Hurt_009.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 963.496,
+                        "y": 311.338
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 961.312,
+                        "y": 312.023
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "collect",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Mermaid/PNG/Mermaid_2/Acceleration_000.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 965.156,
+                        "y": 286.727
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 964.922,
+                        "y": 286.445
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Mermaid/PNG/Mermaid_2/Acceleration_001.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 965.156,
+                        "y": 286.727
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 964.922,
+                        "y": 286.445
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Mermaid/PNG/Mermaid_2/Acceleration_002.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 965.156,
+                        "y": 286.727
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 964.922,
+                        "y": 286.445
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Mermaid/PNG/Mermaid_2/Acceleration_003.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 965.156,
+                        "y": 286.727
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 964.922,
+                        "y": 286.445
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Mermaid/PNG/Mermaid_2/Acceleration_004.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 965.156,
+                        "y": 286.727
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 964.922,
+                        "y": 286.445
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Mermaid/PNG/Mermaid_2/Acceleration_005.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 965.156,
+                        "y": 286.727
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 964.922,
+                        "y": 286.445
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Mermaid/PNG/Mermaid_2/Acceleration_006.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 965.156,
+                        "y": 286.727
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 964.922,
+                        "y": 286.445
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Mermaid/PNG/Mermaid_2/Acceleration_007.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 965.156,
+                        "y": 286.727
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 964.922,
+                        "y": 286.445
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Mermaid/PNG/Mermaid_2/Acceleration_008.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 965.156,
+                        "y": 286.727
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 964.922,
+                        "y": 286.445
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Mermaid/PNG/Mermaid_2/Acceleration_009.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 965.156,
+                        "y": 286.727
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 964.922,
+                        "y": 286.445
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "dead",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Mermaid/PNG/Mermaid_2/Die_000.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Mermaid/PNG/Mermaid_2/Die_001.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Mermaid/PNG/Mermaid_2/Die_002.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Mermaid/PNG/Mermaid_2/Die_003.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Mermaid/PNG/Mermaid_2/Die_004.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Mermaid/PNG/Mermaid_2/Die_005.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Mermaid/PNG/Mermaid_2/Die_006.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Mermaid/PNG/Mermaid_2/Die_007.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Mermaid/PNG/Mermaid_2/Die_008.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Mermaid/PNG/Mermaid_2/Die_009.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "treasure",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "faller",
+              "type": "treasure::faller",
+              "min_speed": 70,
+              "max_speed": 450
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 100,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Game items/PNG/Bonus/Acceleration.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Game items/PNG/Bonus/Coin.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Game items/PNG/Bonus/Crown.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Game items/PNG/Bonus/Pearl.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "score",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Score: 0",
+          "font": "orange-juice/orange juice 2.0.ttf",
+          "characterSize": 80,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "name": "obstacle",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "faller",
+              "type": "treasure::faller",
+              "min_speed": 150,
+              "max_speed": 500
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 100,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Game items/PNG/Bonus/Small-bomb.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Game items/PNG/Let/Barrel_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Game items/PNG/Let/Bomb.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    },
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Game items/PNG/Let/Anchor.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "health",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Health: 10",
+          "font": "orange-juice/orange juice 2.0.ttf",
+          "characterSize": 80,
+          "color": {
+            "b": 156,
+            "g": 156,
+            "r": 255
+          }
+        },
+        {
+          "name": "game_over_sign",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Underwater world Game UI/PNG/you lose/window.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "game_over_chain",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Underwater world Game UI/PNG/you lose/chain.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "game_over_banner",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Underwater world Game UI/PNG/basic window/dec_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "game_over_text",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "string": "Oh Whale",
+          "font": "orange-juice/orange juice 2.0.ttf",
+          "characterSize": 100,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "game_over_score",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "string": "36",
+          "font": "orange-juice/orange juice 2.0.ttf",
+          "characterSize": 350,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "name": "game_over_restart",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Underwater world Game UI/PNG/you lose/restart.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "events": [
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": false,
+          "name": "Music",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "MusicPlaying"
+                  },
+                  "parameters": [
+                    "",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisBouton"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [],
+              "events": []
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": true,
+          "name": "Score",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "score",
+                    "=",
+                    "\"Score: \" + VariableString(score)"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "health",
+                    "=",
+                    "\"Health: \" + VariableString(health)"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": true,
+          "name": "Player movement",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::Or"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "AnimationName"
+                      },
+                      "parameters": [
+                        "player",
+                        "\"hurt\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "AnimationName"
+                      },
+                      "parameters": [
+                        "player",
+                        "\"collect\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "AnimationEnded"
+                  },
+                  "parameters": [
+                    "player"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "player",
+                    "\"swim\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisBouton"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "player",
+                    "\"dead\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "player::swimmer::swim"
+                  },
+                  "parameters": [
+                    "player",
+                    "swimmer",
+                    "Tween",
+                    "MouseX(, )",
+                    "MouseY(, )",
+                    "500",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "BuiltinCommonInstructions::And"
+                  },
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "AnimationName"
+                      },
+                      "parameters": [
+                        "player",
+                        "\"hurt\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "AnimationName"
+                      },
+                      "parameters": [
+                        "player",
+                        "\"collect\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "AnimationName"
+                      },
+                      "parameters": [
+                        "player",
+                        "\"dead\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "player::swimmer::is_swimming"
+                      },
+                      "parameters": [
+                        "player",
+                        "swimmer",
+                        "Tween",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "player",
+                        "\"swim\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "player::swimmer::is_swimming"
+                      },
+                      "parameters": [
+                        "player",
+                        "swimmer",
+                        "Tween",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "player",
+                        "\"idle\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "RotateTowardAngle"
+                      },
+                      "parameters": [
+                        "player",
+                        "0",
+                        "0",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "FlipY"
+                      },
+                      "parameters": [
+                        "player",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": false,
+          "name": "Falling treasure",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"treasure\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Timer"
+                  },
+                  "parameters": [
+                    "",
+                    "2.2",
+                    "\"treasure\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "treasure",
+                    "RandomFloatInRange(55, SceneWindowWidth() - 55)",
+                    "-100",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"treasure\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "player",
+                    "treasure",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "player",
+                    "\"dead\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "treasure",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "score",
+                    "+",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "player",
+                    "\"collect\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "456965__funwithsound__short-success-sound-glockenspiel-treasure-video-game.ogg",
+                    "",
+                    "100",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": false,
+          "name": "Falling obstacles",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"obstacle\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Timer"
+                  },
+                  "parameters": [
+                    "",
+                    "1.5",
+                    "\"obstacle\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "obstacle",
+                    "RandomFloatInRange(55, SceneWindowWidth() - 55)",
+                    "-100",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"obstacle\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "player",
+                    "obstacle",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "player",
+                    "\"dead\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "obstacle",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "health",
+                    "-",
+                    "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "211634__qubodup__damage.ogg",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "FlippedY"
+                      },
+                      "parameters": [
+                        "player"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "player",
+                        "\"hurt\""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "FlipY"
+                      },
+                      "parameters": [
+                        "player",
+                        "yes"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "FlippedY"
+                      },
+                      "parameters": [
+                        "player"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "player",
+                        "\"hurt\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "health",
+                        "<=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "player",
+                        "\"dead\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "disabled": false,
+          "folded": true,
+          "name": "Game over",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "VarScene"
+                  },
+                  "parameters": [
+                    "health",
+                    "<=",
+                    "0"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"game over\""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Tween::AddObjectPositionYTween"
+                  },
+                  "parameters": [
+                    "game_over_sign",
+                    "Tween",
+                    "\"enter\"",
+                    "200",
+                    "\"easeOutBack\"",
+                    "1000",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "game_over_score",
+                    "=",
+                    "VariableString(score)"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "game_over_restart",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"game\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "disabled": false,
+              "folded": true,
+              "name": "Group all the game_over objects together",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "MettreY"
+                      },
+                      "parameters": [
+                        "game_over_chain",
+                        "=",
+                        "game_over_sign.Y() - 316"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "MettreY"
+                      },
+                      "parameters": [
+                        "game_over_banner",
+                        "=",
+                        "game_over_sign.Y() + 20"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "MettreY"
+                      },
+                      "parameters": [
+                        "game_over_text",
+                        "=",
+                        "game_over_sign.Y() + 15"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "MettreY"
+                      },
+                      "parameters": [
+                        "game_over_restart",
+                        "=",
+                        "game_over_sign.Y() + 461"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "MettreY"
+                      },
+                      "parameters": [
+                        "game_over_score",
+                        "=",
+                        "game_over_sign.Y() + 104"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ],
+              "parameters": []
+            }
+          ],
+          "parameters": []
+        }
+      ],
+      "layers": [
+        {
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        },
+        {
+          "name": "ui",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "name": "game over",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        },
+        {
+          "name": "faller",
+          "type": "treasure::faller"
+        },
+        {
+          "name": "swimmer",
+          "type": "player::swimmer"
+        }
+      ]
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [
+    {
+      "author": "",
+      "description": "",
+      "extensionNamespace": "",
+      "fullName": "",
+      "name": "player",
+      "shortDescription": "",
+      "tags": "",
+      "version": "",
+      "eventsFunctions": [],
+      "eventsBasedBehaviors": [
+        {
+          "description": "For swimming mermaid characters",
+          "fullName": "Swimmer",
+          "name": "swimmer",
+          "objectType": "Sprite",
+          "eventsFunctions": [
+            {
+              "description": "Makes the player mermaid swim",
+              "fullName": "Swim",
+              "functionType": "Action",
+              "name": "swim",
+              "sentence": "Swim _PARAM0_ to _PARAM3_,_PARAM4_ for _PARAM5_ms",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Egal"
+                      },
+                      "parameters": [
+                        "MouseX(,)",
+                        ">",
+                        "Object.X()"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "FlipY"
+                      },
+                      "parameters": [
+                        "Object",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Egal"
+                      },
+                      "parameters": [
+                        "MouseX(,)",
+                        "<",
+                        "Object.X()"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "FlipY"
+                      },
+                      "parameters": [
+                        "Object",
+                        "yes"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "RotateTowardPosition"
+                      },
+                      "parameters": [
+                        "Object",
+                        "MouseX(,)",
+                        "MouseY(,)",
+                        "0",
+                        ""
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Tween::AddObjectPositionTween"
+                      },
+                      "parameters": [
+                        "Object",
+                        "tween",
+                        "\"swim\"",
+                        "GetArgumentAsNumber(\"x_destination\")",
+                        "GetArgumentAsNumber(\"y_destination\")",
+                        "\"easeOutQuad\"",
+                        "GetArgumentAsNumber(\"duration\")",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "player::swimmer",
+                  "type": "behavior"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "tween",
+                  "name": "tween",
+                  "optional": false,
+                  "supplementaryInformation": "Tween::TweenBehavior",
+                  "type": "behavior"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "X postion to swim to",
+                  "name": "x_destination",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "expression"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Y position to swim to",
+                  "name": "y_destination",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "expression"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "How long should the swim last for",
+                  "name": "duration",
+                  "optional": false,
+                  "supplementaryInformation": "",
+                  "type": "expression"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Is the mermaid player swimming",
+              "fullName": "Is Swimming",
+              "functionType": "Condition",
+              "name": "is_swimming",
+              "sentence": "_PARAM0_ is swimming",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Tween::IsPlaying"
+                      },
+                      "parameters": [
+                        "Object",
+                        "tween",
+                        "\"swim\""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "player::swimmer",
+                  "type": "behavior"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "tween",
+                  "name": "tween",
+                  "optional": false,
+                  "supplementaryInformation": "Tween::TweenBehavior",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": []
+        }
+      ]
+    },
+    {
+      "author": "",
+      "description": "",
+      "extensionNamespace": "",
+      "fullName": "",
+      "name": "treasure",
+      "shortDescription": "",
+      "tags": "",
+      "version": "",
+      "eventsFunctions": [],
+      "eventsBasedBehaviors": [
+        {
+          "description": "For falling treasure",
+          "fullName": "Faller",
+          "name": "faller",
+          "objectType": "Sprite",
+          "eventsFunctions": [
+            {
+              "description": "",
+              "fullName": "",
+              "functionType": "Action",
+              "name": "onCreated",
+              "sentence": "",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangeSprite"
+                      },
+                      "parameters": [
+                        "Object",
+                        "=",
+                        "RandomInRange(0, 4)"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "AddForceXY"
+                      },
+                      "parameters": [
+                        "Object",
+                        "0",
+                        "RandomFloatInRange(Object.Behavior::Propertymin_speed(), Object.Behavior::Propertymax_speed())",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ChangeScale"
+                      },
+                      "parameters": [
+                        "Object",
+                        "=",
+                        "0.5"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "treasure::faller",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "",
+              "fullName": "",
+              "functionType": "Action",
+              "name": "doStepPreEvents",
+              "sentence": "",
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PosY"
+                      },
+                      "parameters": [
+                        "Object",
+                        ">",
+                        "1200"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Object",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ],
+              "parameters": [
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Object",
+                  "name": "Object",
+                  "optional": false,
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "codeOnly": false,
+                  "defaultValue": "",
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "optional": false,
+                  "supplementaryInformation": "treasure::faller",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": [
+            {
+              "value": "200",
+              "type": "Number",
+              "label": "Min speed to fall",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "min_speed"
+            },
+            {
+              "value": "600",
+              "type": "Number",
+              "label": "Max speed to fall",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "max_speed"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}
